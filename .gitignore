@@ -1,0 +1,112 @@
+# ============================================================
+# Among Agents — .gitignore
+# React + Vite (frontend) | FastAPI + Python (backend)
+# ============================================================
+
+# ─── Secrets & environment ──────────────────────────────────
+# Never commit real env files — they contain API keys
+.env
+.env.*
+!.env.example        # keep the safe template
+
+*.pem
+*.key
+*.p12
+secrets/
+
+# ─── Database files ─────────────────────────────────────────
+# SQLite DBs are local runtime data, not source code
+*.db
+*.sqlite
+*.sqlite3
+
+# ─── Python: Virtual environment ────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── Python: Byte-compiled / cache ──────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# ─── Python: Coverage & test artifacts ──────────────────────
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+
+# ─── Python: Distribution / packaging ───────────────────────
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+sdist/
+MANIFEST
+
+# ─── Frontend: Node modules & build output ──────────────────
+node_modules/
+dist/
+dist-ssr/
+build/
+out/
+.cache/
+.turbo/
+.parcel-cache/
+
+# ─── Vite ───────────────────────────────────────────────────
+*.local
+.output/
+
+# ─── Logs ───────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ─── Bolt.new scaffolding ───────────────────────────────────
+.bolt/
+
+# ─── OS-generated ───────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─── Editors ────────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*~
+
+# ─── Misc temp files ────────────────────────────────────────
+*.bak
+*.tmp
+*.temp
+tmp/
+temp/
