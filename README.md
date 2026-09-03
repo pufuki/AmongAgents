@@ -1,10 +1,14 @@
 # Among Agents
 
-**Multi-Agent Social Deduction Simulation** — 5 autonomous AI agents play a complete game of Mafia against each other in real time.
+**Multi-Agent Social Deduction Simulation** - 5 autonomous AI agents play a complete game of Mafia against each other in real time.
 
 ![Game Board](screenshots/start-game.png)
 
+---
+
 ![Game Board](screenshots/mafia-wins.png)
+
+---
 
 ![Game Board](screenshots/citizens-wins.png)
 
