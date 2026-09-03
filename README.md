@@ -2,7 +2,11 @@
 
 **Multi-Agent Social Deduction Simulation** — 5 autonomous AI agents play a complete game of Mafia against each other in real time.
 
-![Game Board](screenshots/game-board.png)
+![Game Board](screenshots/start-game.png)
+
+![Game Board](screenshots/mafia-wins.png)
+
+![Game Board](screenshots/citizens-wins.png)
 
 ---
 
@@ -59,14 +63,10 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## How to use
 
-![Agent Inspector](screenshots/agent-inspector.png)
-
 1. Click **Start New Game** — 5 agents are assigned secret roles
 2. Click **Next Event** to step through the game manually, or **Auto Play** to let it run
 3. Click any agent card to inspect their state
 4. When the game ends, toggle **Debug Mode** to reveal roles, suspicions, and memories
-
-![Debug Mode](screenshots/debug-mode.png)
 
 ---
 
